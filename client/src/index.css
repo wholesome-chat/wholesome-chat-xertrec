@@ -1,0 +1,19 @@
+/* Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset and full height styles */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb; /* Optional: Tailwind's gray-50 */
+}
