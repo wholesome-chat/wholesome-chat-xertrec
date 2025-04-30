@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+/* Aseguramos que el contenedor principal ocupe toda la pantalla */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Aplicamos estilos globales para asegurar el fondo */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+}
